@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>home</title>
+  <link rel="icon" href="./img2/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="home.html">HOME</a>
+    <a href="show.html">HISTORY</a>
+    <a href="museum.html">MUSEUM</a>
+    <a href="DIY.html">DIY</a>
+    <a href="login.html">LOGIN</a>
+  </div>
+
+  <div class="content">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/1.jpg" alt="img1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/2.png" alt="img2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/3.png" alt="img3" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/4.jpg" alt="img4" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="news">
+    <p class="title">NEWS
+    <p>
+    <ul class="news-list" id="news-list">
+      <li class="news-item">
+        <a href="http://www.chnppmuseum.com/html1/report/23051/2488-1.htm">
+          <img src="./img2/news/1.png" alt="news-image1" class="news-image">
+          <div class="news-content">
+            <h2 class="news-title">National Art Museum of China Special stamps issued</h2>
+            <p class="news-description">Designed by Qiu Yan, engraved by Yang Zhiying and printed by Beijing Stamp
+              Factory
+              Co., LTD., this set of stamps has a face value of 1.2 yuan. It is planned to issue 6.6 million sets.</p>
+          </div>
+        </a>
+      </li>
+      <li class="news-item">
+        <a href="http://www.chnppmuseum.com/html1/report/23051/1536-1.htm">
+          <img src="./img2/news/2.png" alt="news-image2" class="news-image">
+          <div class="news-content">
+            <h2 class="news-title">Disabled stamp fans on "Help the Disabled Day" experience stamp digitisation at the
+              Stamp Museum (2023-05-22)</h2>
+            <p class="news-description">Stamp fans from the Beijing Philatelic Association for the Disabled enjoy an
+              exhibition at the China Post Stamp Museum in Beijing, capital of China, May 19, 2019, ahead of the 33rd
+              National Assistance Day for the Disabled. The theme of this activity is "A wonderful world -- Experience
+              stamp digitalization together with you", aiming to better help disabled friends to understand philately
+              culture, experience philately fun, so that digital stamp dissemination from online to offline promotion.
+              The
+              Beijing Xiangshan Branch of Postal Savings Bank provided sign language interpretation services for the
+              event.</p>
+          </div>
+        </a>
+      </li>
+      <li class="news-item">
+        <a href="http://www.chnppmuseum.com/html1/report/2305/6037-1.htm">
+          <img src="./img2/news/3.png" alt="news-image3" class="news-image">
+          <div class="news-content">
+            <h2 class="news-title">Spring City everywhere flying flowers - Kunming 2023 the 19th China National
+              philatelic
+              Exhibition full record (2023-05-11)</h2>
+            <p class="news-description">After a long period of preparation and overcoming numerous difficulties, the
+              exhibition finally landed in Kunming. It has aroused great expectations from many parties and brought
+              together the efforts of countless people. Close communication and coordination among All-China Philatelic
+              Federation, China Post Group Co., LTD., Yunnan Provincial government, Kunming Municipal Government and
+              Yunnan Post Branch have ensured the orderly progress of the preparations for the exhibition. With the
+              strong
+              support and help of leaders at all levels and all sectors of society, and with the careful preparation of
+              the Group company, the exhibition was successfully held and ended successfully. During the period of
+              highlights frequently, the community responded warmly. This exhibition has played a great role in
+              promoting
+              local economy, enterprise development, social progress and cultural construction. It is a successful
+              practice for China Post to fulfill its responsibility as the "national team" of the industry, achieve both
+              social and economic benefits, and meet the needs of the people for material civilization and spiritual
+              civilization.</p>
+          </div>
+        </a>
+      </li>
+      <li class="news-item">
+        <a href="">
+          <img src="./img2/news/4.png" alt="news-image4" class="news-image">
+          <div class="news-content">
+            <h2 class="news-title">Commemorative stamps on the 50th Anniversary of the establishment of Diplomatic
+              Relations between China and Spain were issued (2023-05-11)</h2>
+            <p class="news-description">On May 10, China Post issued a commemorative stamp on the 50th Anniversary of
+              the establishment of Diplomatic relations between China and Spain (jointly issued with Spain). 2023 marks
+              the 50th anniversary of the establishment of diplomatic ties between China and Spain. Over the past half
+              century, China and Spain have adhered to mutual respect, exchanges and dialogue and actively carried out
+              mutually beneficial cooperation. In November 2005, the two countries established a comprehensive strategic
+              partnership.</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pagination">
+      <button id="prev-btn" onclick="showPreviousPage()">previous page</button>
+      <span id="page-num">1</span>
+      <button id="next-btn" onclick="showNextPage()">next page</button>
+    </div>
+  </div>
+  <div class="content">
+    <aside id="left">
+      <p>Stamp display</p>
+      <a href="museum.html">
+        <img src="img2/history/7.png">
+      </a>
+    </aside>
+    <section id="right">
+      <p>Related video</p>
+      <a href="video.html">
+        <img src="img2/vid.png">
+      </a>
+    </section>
+  </div>
+  <div class="content"></div>
+
+  <div class="footer">@zjl,zcf</div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/news.js"></script>
+</body>
+
+</html>

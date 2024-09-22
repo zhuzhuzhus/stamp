@@ -1,0 +1,275 @@
+.box {
+  height: 720px;
+  width: 1500px;
+  margin-left: 65px;
+  position: relative;
+  background: url("../img/页面固定元素/背景图\ 5.png");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.leftBottom {
+  width: 618px;
+  height: 668px;
+  background: url("../img/页面固定元素/标题+装饰.png");
+}
+
+.leftBottom2 {
+  width: 1500px;
+  background: url("../img/页面固定元素/最后一步的标题＋装饰.png");
+
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.logo img {
+  width: 45px;
+  height: 50px;
+}
+
+.number {
+  position: absolute;
+  width: 25px;
+  height: 38px;
+  left: 245px;
+  top: 88px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 110px;
+  display: flex;
+  align-items: center;
+  color: #C7B490;
+}
+
+.tittle {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 314px;
+  top: 94px;
+  font-family: 'STFangsong';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #856324;
+}
+
+.tittles {
+  width: 359px;
+  height: 132px;
+  left: 962px;
+  top: 248px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.canvas {
+  position: absolute;
+  width: 199px;
+  height: 307px;
+  left: 286px;
+  top: 172px;
+  background: url("../img/页面固定元素/默认画布.png");
+}
+
+.canvas2 {
+  width: 259.2px;
+  height: 399.87px;
+  left: 621.05px;
+  top: 137.75px;
+}
+
+/* .btnR {
+  position: absolute;
+  width: 89px;
+  height: 94px;
+  left: 426px;
+  top: 525px;
+} */
+.btnR .btnR1 {
+  position: absolute;
+  width: 89px;
+  height: 37px;
+  left: 426px;
+  top: 525px;
+  text-align: center;
+  line-height: 37px;
+  color: #998259;
+  background: rgba(248, 234, 212, 0.6);
+  box-shadow: 4px 4px 4px #DEDCCB, inset 4px 4px 4px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: url("../img/页面固定元素/下一步上一步按钮/下一步.png");
+}
+
+.btnR .btnR1:hover {
+  background: url("../img/页面固定元素/下一步上一步按钮/点击变成.png");
+}
+
+.btnL .btnL1 {
+  position: absolute;
+  width: 89px;
+  display: none;
+  height: 37px;
+  left: 241px;
+  top: 525px;
+  text-align: center;
+  line-height: 37px;
+  color: #998259;
+  background: rgba(248, 234, 212, 0.6);
+  box-shadow: 4px 4px 4px #DEDCCB, inset 4px 4px 4px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: url("../img/页面固定元素/下一步上一步按钮/下一步.png");
+}
+
+.btnL .btnL1:hover {
+  background: url("../img/页面固定元素/下一步上一步按钮/点击变成.png");
+}
+
+.btnR .btnR2 {
+  position: absolute;
+  width: 89px;
+  height: 37px;
+  left: 426px;
+  top: 525px;
+  text-align: center;
+  display: none;
+  line-height: 37px;
+  color: #998259;
+  background: rgba(248, 234, 212, 0.6);
+  box-shadow: 4px 4px 4px #DEDCCB, inset 4px 4px 4px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: url("../img/页面固定元素/下一步上一步按钮/下一步.png");
+}
+
+.btnR .btnR2:hover {
+  background: url("../img/页面固定元素/下一步上一步按钮/点击变成.png");
+}
+
+.border {
+  position: absolute;
+  width: 238px;
+  height: 346px;
+  background-size: 100% 100% !important;
+  left: 264px;
+  z-index: 5;
+  top: 153px;
+}
+
+.border2 {
+  position: absolute;
+  width: 310px;
+  height: 450.67px;
+  left: 595px;
+  top: 113px;
+}
+
+.paper {
+  position: absolute;
+  width: 199px;
+  height: 307px;
+  background-size: 100% 100% !important;
+  left: 286px;
+  top: 172px;
+  z-index: 1;
+}
+
+.paper2 {
+  width: 259.2px;
+  height: 399.87px;
+  left: 621.05px;
+  top: 137.75px;
+}
+
+.dom {
+  position: absolute;
+  width: 199px;
+  height: 307px;
+  left: 286px;
+  background-size: 100% 100% !important;
+  top: 172px;
+  z-index: 4;
+}
+
+.dom2 {
+  width: 259.2px;
+  height: 399.87px;
+  left: 621.05px;
+  top: 137.75px;
+}
+
+.jq {
+  position: absolute;
+  width: 135.66px;
+  height: 130px;
+  left: 292px;
+  background-size: 100% 100% !important;
+  top: 177px;
+  z-index: 5;
+}
+
+.jq2 {
+  width: 176.7px;
+  height: 169.33px;
+  left: 627.56px;
+  top: 144.26px;
+}
+
+.rightBox {
+  position: absolute;
+  width: 810px;
+  height: 570px;
+  left: 650px;
+  top: 44px;
+  padding: 20px;
+  z-index: 2;
+  overflow: hidden;
+  background: url("../img/页面固定元素/右边背景板.png");
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.rightBox .zhizhang {
+  width: 172px;
+  height: 243px;
+  margin: 13px;
+}
+
+.rightBox .Group {
+  width: 155px;
+  height: 224px;
+  margin-left: 42px;
+}
+
+.rightBox .jieqi {
+  width: 114px;
+  height: 80px;
+  margin-left: 18px;
+}
+
+.rightBox .jieqi2 {
+  width: 84px;
+  height: 80px;
+  margin-left: 46px;
+}
+
+.rightBox .jieqi3 {
+  width: 70px;
+  height: 100px;
+  margin-left: 60px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>museum</title>
+  <link rel="icon" href="./img2/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/museum_swiper.css">
+  <link rel="stylesheet" href="css/museum.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="home.html">HOME</a>
+    <a href="show.html">HISTORY</a>
+    <a href="museum.html">MUSEUM</a>
+    <a href="DIY.html">DIY</a>
+    <a href="login.html">LOGIN</a>
+  </div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img2/6/1.png" alt="Slider Image 1">
+        <div class="image-info">
+          <h3>Articles of Association of Daqing Post</h3>
+          <p>It was drafted by Hurd in 1892 (18th year of Guangxu Dynasty), amended and supplemented in 1895 (21st year
+            of Guangxu Dynasty), and formally promulgated and implemented by the General Post Administration in 1899
+            (25th year of Guangxu Dynasty). The constitution is based on Lee Gyu's Regulations on Posting Letters at
+            Proposed Post Offices. It consists of 44 articles in four chapters, including 26 chapters on the
+            establishment of post offices, business operation, mail handling and delivery, and payment of postage. The
+            first edition was published in 1899 and four editions were issued successively. It is an important
+            historical material for the study of Chinese postal history.</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="img2/6/2.png" alt="Slider Image 2">
+        <div class="image-info">
+          <h3>Shandong War Mail "27" Model workers Conference special issue</h3>
+          <p>Special Issue of Shandong War Mail "27th" Model Workers' Conference ", published in May 1945, was edited
+            and published by Shandong War Post, the official newspaper of Shandong War Post General Administration. From
+            February 7 to 17, 1945, the first provincial War and mail Workers' Conference was held in Landunzi Village,
+            Junan County, Shandong Province. The conference lasted 20 days.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="img2/6/3.png" alt="Slider Image 3">
+        <div class="image-info">
+          <h3>The 1980 stamp of the Year of the Boxer Rebellion</h3>
+          <p>
+            The stamps focus on the facial expressions and identity characteristics of the monkeys through close-ups.
+            The black hair lines are clear, the golden skin is tender and plump, and the red eyes reflect the joyful
+            atmosphere of the lanterns. The thick Chinese red background color is full of auspicious happiness. 1980
+            stamp of the Year of Gengshen, is the first set of Chinese zodiac series stamps.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <div class="container">
+    <br> <br> <br>
+    <div class="title-container">
+      <div class="section-title" onclick="showSection('artifact')">Postal relics</div>
+      <div class="section-title" onclick="showSection('stamp')">Stamp display</div>
+    </div>
+
+    <div class="photo-grid artifact-grid slide-in" id="artifact-grid">
+    </div>
+
+    <div class="photo-grid stamp-grid slide-in" id="stamp-grid">
+    </div>
+
+    <div class="category-box" id="category-all" onclick="showStamps('All')">All</div>
+    <div class="category-box" id="category-history" onclick="showStamps('Historical')">Historical stamp</div>
+    <div class="category-box" id="category-liberation" onclick="showStamps('Liberated')">Liberated area stamp</div>
+    <div class="category-box" id="category-new-china" onclick="showStamps('New')">New China stamp</div>
+    <div class="category-box" id="category-foreign" onclick="showStamps('Foreign')">Foreign stamp</div>
+  </div>
+  <div class="conyainer">123<br>123<br></div>
+
+  <div class="footer">@zjl,zcf</div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/museum.js"></script>
+</body>
+
+</html>

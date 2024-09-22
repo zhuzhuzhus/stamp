@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Video</title>
+  <link rel="icon" href="./img2/icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/video.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="home.html">HOME</a>
+    <a href="show.html">HISTORY</a>
+    <a href="museum.html">MUSEUM</a>
+    <a href="DIY.html">DIY</a>
+    <a href="login.html">LOGIN</a>
+  </div>
+
+  <div class="video-container">
+    <video id="video" src="./video/ai-stamp.flv"></video>
+    <div id="controls">
+      <button id="play-btn" class="control-btn">&#9658;</button>
+      <div id="progress-container">
+        <input type="range" id="progress-bar-range" min="0" max="100" step="0.1" value="0">
+      </div>
+      <select id="speed-select">
+        <option value="1">normal</option>
+        <option value="1.25">1.25x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+      </select>
+      <input type="range" id="volume-range" min="0" max="100" step="1">
+      <button id="fullscreen-btn" class="control-btn">&#10064;</button>
+    </div>
+    <div class="video-info">
+      <h3>Stamps created by AI</h3>
+      <p>The design of stamps is different from the creation of art. The design of stamps should not only have the art
+        foundation, but also be proficient in the printing process. A popular phrase in the industry: excellent artists
+        can not design stamps, but stamp design must be an excellent painter. For example: Sun Chuanzhe - New China
+        stamp design first person (in Zhejiang, there is Sun Chuanzhe memorial hall), he designed the stamps with two
+        words to describe the most appropriate, that is exquisite.</p>
+    </div>
+  </div>
+
+  <div class="footer">@zjl,zcf</div>
+
+  <script src="js/video.js"></script>
+</body>
+
+</html>

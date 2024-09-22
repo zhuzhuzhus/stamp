@@ -1,0 +1,25 @@
+.swiper-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 400px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  margin-right: 20px;
+}
+
+.swiper-slide .image-info {
+  color: #fff;
+}
